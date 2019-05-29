@@ -1,30 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>First HTML Code</title>
-    </head>
-    <body>
-        <h1>Newbie HTML Page</h1>
-        <h2>Everything is possible with partice</h2>
-        <a href="https://google.com">Link to Google</a>
-        <hr width="20" align="right">
-        <pre>
-            <u><b>Doina</u></b>
+  <head>
+    <title>First HTML Code</title>
+  </head>
+  <body>
+    <h1>Newbie HTML Page</h1>
+    <h2>Everything is possible with partice</h2>
+    <a href="https://google.com">Link to Google</a>
+    <hr width="20" align="right" />
 
-            <i>Doina, doiniţă!
-            De-aş avea o puiculiţă,
-            Cu flori galbene-n cosiţă,
-            Cu flori roşii pe guriţă!</i>
-            
-            <B>De-aş avea o mândrulică
-            Cu-ochişori de porumbică
-            Şi cu suflet de voinică!</b>
-            
-            De-aş avea o bălăioară
-            Naltă, veselă, uşoară,
-            Ca un pui de căprioară!
-        </pre>
-        
-           
-    </body>
+    <h1>Login</h1>
+
+    <form action="Profile.html">
+      <label>Username</label> <br />
+      <input
+        type="text"
+        minlength="4"
+        name="username"
+        placeholder="Enter Username"
+        required
+      />
+      <br />
+      <label>Password</label> <br />
+      <input
+        type="password"
+        minlength="4"
+        name="password"
+        placeholder="Enter Password"
+        required
+      />
+      <br />
+      <input type="checkbox" id="agree" name="agree" required />
+      <label for="agree">I agree</label> <br />
+      <br />
+      <input type="submit" value="Login" />
+    </form>
+  </body>
 </html>

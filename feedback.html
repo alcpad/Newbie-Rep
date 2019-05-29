@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Form</title>
+      <link rel="stylesheet" href="feedback.css" />
+      <style>
+       h1:nth-child(4n+2) {        
+        background-color: coral;
+        display: block;
+       }
+       label {
+           color: coral
+       }
+      input {
+          border-radius: 6px;
+          border-color: darkslateblue;
+          border-style:groove;
+          padding: 10px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+      }
+      select,
+      input {
+        margin-bottom: 5px; 
+        margin-top: 5px;
+      }
+      body {
+          margin:auto
+      }
+      input[type="text"] {
+          height: 30px;
+      }
+      .checkbox {
+          display: inline;
+      }
+      label+input[type="checkbox"]:checked  {
+          color: blue
+      }
+      h1::after {
+          content: " Be Kind "
+      }
+
+      </style>
+  </head>
+
+  <Body>
+       
+    <h1>My Feedback Form</h1>
+    <br />
+    <br />
+    <form>
+      <ul>
+        <li>
+          <label class="style">Name:</label> 
+          <input type="text" name="Name:" required />
+        </li>
+        <li>
+          <label class="style">Email:</label> 
+          <input type="email" name="email" required />
+        </li>
+        <li>
+          <label class="style">Password:</label>
+          <input type="password" minlength="4" name="password" required />
+        </li>
+        <br />
+        <li><p>Please Check all the emotions that apply to you:</p></li>
+        <li>
+          <label class="checkbox" for="Angry:">Angry:</label
+          ><input type="checkbox" id="Angry:" name="emotions" value="1"/>
+        </li>
+        <li>
+          <label class="checkbox" for="sad:">Sad:</label><input type="checkbox" id="sad:" name="emotions" value="2" />
+        </li>
+        <li>
+          <label class="checkbox" for="happy">Happy:</label
+          ><input type="checkbox" id="happy" name="emotions" value="3" />
+        </li>
+        <li>
+          <label class="checkbox" for="ambivalent:">Ambivalent:</label
+          ><input type="checkbox" id="ambivalent:"  name="emotions" value="4" />
+        </li>
+        <li><p>How satisfied were you with our service?</p></li>
+        <li>
+          <label for="very satisfied">Very Satisfied</label
+          ><input type="radio" name="feel" id="very satisfied" value="vs" />
+        </li>
+        <li>
+          <label for="satisfied">Satisfied</label
+          ><input type="radio" name="feel" id="satisfied" value="1" />
+        </li>
+        <li>
+          <label for="didn't care">Didn't Care</label
+          ><input type="radio" name="feel" id="didn't care" value="2" />
+        </li>
+        <li>
+          <label for="dissatisfied">Dissatisfied</label
+          ><input type="radio" name="feel" id="dissatisfied" value="31" />
+        </li>
+        <li>
+          <label for="very dissatisfied">Very Dissatisfied</label
+          ><input type="radio" name="feel" id="very dissatisfied" value="5" />
+        </li>
+        <li>
+          <label for="Further comments"> Further Comments:</label
+          ><textarea cols="20" rows="5" name="comments" value="Precompletat"></textarea>
+        </li>
+        <li>
+          <label for="Bio photo">Bio Photo:</label
+          ><input type="file" id="bio photo" name="file" />
+        </li>
+        <li>
+          <label for="Location visited">Location visited:</label>
+          <select id="location visited" name="location">
+            <option value="Select Location">Select Location</option>
+            <option value="London">London</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Iasi">Iasi</option>
+          </select>
+        </li>
+        <li><input type="submit" value="Submit" /></li>
+      </ul>
+    </form>
+  </Body>
+</html>
