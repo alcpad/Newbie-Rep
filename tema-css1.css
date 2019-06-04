@@ -1,0 +1,21 @@
+li, a {
+    color: red;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 36px;
+}
+div {
+    border: 1px solid black;
+}
+div > a {
+    color: green;
+}
+img {
+    margin-top: 10px;
+    width: 150px
+}
+p {
+    color: blue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
