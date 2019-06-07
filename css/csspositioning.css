@@ -1,0 +1,18 @@
+div {
+    display: block;
+    border: green solid 3px;
+    position: relative;
+}
+nav {
+    display: block;
+    border: salmon 3px solid;
+    position: relative;
+    left: 0px;
+    top: 0px;    
+    color: salmon;
+}
+
+section {
+    border: orange 3px solid;
+    
+}

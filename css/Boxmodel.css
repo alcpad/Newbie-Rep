@@ -1,0 +1,59 @@
+h1 {    
+    border: 2px solid red;
+    background-color: #6a6;
+    padding: 10px;    
+}
+h2 {    
+    border: 2px solid red;
+    background-color: #6a6;
+    padding: 10px; 
+}
+h3 {    
+    border: 2px solid red;
+    background-color: #6a6;
+    padding: 10px;  
+}
+ul {
+    margin: 15px 15px 15px 15px;
+    background-color: #de1e7e;
+}
+
+p::after {
+    content: "";
+    border: 2px dotted black;
+    background-color: #fb1;
+    width: 500px;
+    height: 300px; 
+    display: block;         
+}
+a {
+    background-color: #a1a1a1;
+    padding-bottom: 3px;
+    text-decoration: underline dashed blue      
+}
+.box {
+    border:1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+}
+.box2 {
+    border:1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+.box3 {
+    border:1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    
+}
