@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 3px solid green;
+    position: relative;
+    display: inline-block;
+}
+nav {
+    border: 1px solid pink;
+    float: left;
+    width: 15%;
+    height: 270px;
+    min-width: 150px;
+}
+section {
+    border: 1px solid yellow;
+    float: left;
+    width: 85%;
+    height: 90px;
+}
+footer {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 3px red dotted;
+    background-image: url("../images/girafe_2_600.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;  
+
+}    
