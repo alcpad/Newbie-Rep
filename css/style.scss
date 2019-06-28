@@ -1,0 +1,27 @@
+#main {
+    height: 400px;
+    width: 400px;
+}
+
+#main .card1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: background-color 2s, width 2s;
+}
+
+#main .card2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transition: background-color 2s, 2s width 2s;
+}
+
+#main:hover .card1 {
+    width: 200px;
+    background-color: green;
+}
+#main:hover .card2 {
+    width: 200px;
+    background-color: yellow;
+}
